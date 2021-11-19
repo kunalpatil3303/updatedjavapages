@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="864.0" prefWidth="1300.0" style="-fx-background-color: sky blue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minipro.HelloController">
+   <children>
+      <AnchorPane prefHeight="134.0" prefWidth="1300.0" style="-fx-background-color: purple;">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@help.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="34.0" layoutY="87.0" prefHeight="35.0" prefWidth="116.0" text="Help" textFill="#fff9f9">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="313.0" layoutY="34.0" prefHeight="66.0" prefWidth="313.0" text="HILTON" textFill="#fff3f3">
+               <font>
+                  <Font size="48.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="357.0" layoutY="142.0" prefHeight="32.0" prefWidth="116.0" text="Address" textFill="#031d32">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="170.0" prefHeight="35.0" prefWidth="346.0" text="4651 Sugar Camp Road,Minnessota 55060">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="242.0" prefHeight="28.0" prefWidth="81.0" text="Phone" textFill="#04233c">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="356.0" layoutY="277.0" prefHeight="35.0" prefWidth="214.0" text="507-475-60975-6048">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="356.0" layoutY="353.0" prefHeight="17.0" prefWidth="64.0" text="Email" textFill="#02111e">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="356.0" layoutY="388.0" prefHeight="28.0" prefWidth="152.0" text="hitlon@gmail.com">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="70.0" layoutX="268.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="70.0" layoutX="268.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@call.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="57.0" layoutX="113.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images.png" />
+         </image></ImageView>
+      <AnchorPane layoutX="14.0" layoutY="472.0" prefHeight="344.0" prefWidth="1300.0" style="-fx-background-color: grey;">
+         <children>
+            <Label layoutX="103.0" layoutY="14.0" prefHeight="35.0" prefWidth="240.0" text="Send Message">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="58.0" prefHeight="17.0" prefWidth="214.0" text="Full Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="133.0" prefHeight="17.0" prefWidth="240.0" text="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="213.0" prefHeight="17.0" prefWidth="262.0" text="Type your Message..">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="48.0" layoutY="91.0" prefHeight="25.0" prefWidth="570.0" />
+            <TextField layoutX="48.0" layoutY="240.0" prefHeight="25.0" prefWidth="570.0" />
+            <TextField layoutX="48.0" layoutY="158.0" prefHeight="25.0" prefWidth="570.0" />
+            <Button layoutX="358.0" layoutY="281.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" style="-fx-background-color: #08a3c6;" text="Send" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
